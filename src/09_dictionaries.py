@@ -1,5 +1,4 @@
-"""
-Dictionaries are Python's implementation of associative arrays.
+""" Dictionaries are Python's implementation of associative arrays.
 There's not much different with Python's version compared to what
 you'll find in other languages (though you can also initialize and
 populate dictionaries using comprehensions just like you can with
