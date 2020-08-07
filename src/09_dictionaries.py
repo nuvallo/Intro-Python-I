@@ -45,11 +45,9 @@ print(waypoints)
 
 # YOUR CODE HERE
 
-waypoint_edit = waypoints["name" == "a place"]
-print(waypoint_edit)
-waypoint_edit['name'] = 'not a real place'
-waypoint_edit['lon'] = -130
-print(waypoint_edit)
+waypoints[0]['lon'] = -130
+waypoints[0]['name'] = 'not a real name'
+
 
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
