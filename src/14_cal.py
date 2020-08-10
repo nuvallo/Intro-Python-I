@@ -31,8 +31,7 @@ import sys
 import calendar
 from datetime import datetime
 
-args = sys.argv
-args = [int(n) for n in sys.argv[1:]]
+args = [int(n) for n in sys.argv[1:]]
 
 print(args, len(args))
 
@@ -43,11 +42,11 @@ if len(args) == 0:
 
 elif len(args) == 1:
    month = args[0]
+   year = datetime.now().year
 elif len(args) == 2:
-    pass
+   month = args[0]
+   year = args[1]
 else:
-    print("usage statement)
-
-
+    print("usage statement")
 
 print(month, year)
